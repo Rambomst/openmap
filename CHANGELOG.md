@@ -1,5 +1,13 @@
 # OpenMap changelog
 
+## Unreleased
+
+### Fixed
+
+- **Quest icons show the quest's level on every map**: zoomed out, or over the next zone, OpenMap's own
+  quest icons had only the quest's name on their tooltip. They now read as Blizzard's own quest icons do,
+  with the level and its difficulty colour ("[39+] The Crown of Will"). By Rambomst.
+
 ## v0.8.9 (2026-11-14)
 
 ### New

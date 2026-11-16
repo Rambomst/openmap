@@ -282,6 +282,20 @@ class Quests(unittest.TestCase):
         self.usual_map()
         self.assertEqual(self.hint(), "Click: track this quest, zoom to it and show it in the quest log")
 
+    def title(self):
+        self.lua.execute("Refresh() pin = drawn[1] pin.scripts.OnEnter(pin) title = tip[1]")
+        return self.lua.eval("title")
+
+    def test_tooltip_title_has_the_level_as_blizzards_own_quest_icons(self):
+        # (WoW Forever's DifficultyUtil.lua: Blizzard's QuestPinMixin:OnMouseEnter puts its title through it)
+        self.usual_map()
+        self.lua.execute('SetQuestTitleLevelAndDifficultyColor = function(id, title) return "[39+] " .. title end')
+        self.assertEqual(self.title(), "[39+] Quest 200")
+
+    def test_tooltip_title_without_the_games_level_helper_is_the_quests_name(self):
+        self.usual_map()
+        self.assertEqual(self.title(), "Quest 200")
+
 
 if __name__ == "__main__":
     unittest.main()

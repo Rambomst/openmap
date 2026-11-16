@@ -52,6 +52,10 @@ local function Enter(pin)
 	if not q then return end
 	GameTooltip:SetOwner(pin, "ANCHOR_RIGHT")
 	local title = C_QuestLog.GetTitleForQuestID and C_QuestLog.GetTitleForQuestID(q.id)
+	-- (its level and difficulty colour, "[39+] ", as Blizzard's own quest pins show it: their
+	-- QuestPinMixin:OnMouseEnter, WoW Forever's DifficultyUtil)
+	local decorate = G("SetQuestTitleLevelAndDifficultyColor")
+	if title and decorate then title = decorate(q.id, title) end
 	GameTooltip:SetText(title or "?", 1, 0.82, 0)
 	local index = C_QuestLog.GetLogIndexForQuestID and C_QuestLog.GetLogIndexForQuestID(q.id)
 	if q.complete then
