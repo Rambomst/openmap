@@ -534,6 +534,7 @@ L["the controller map option turned on in combat, and B by a quest's details"] =
 L["the map art is the game's own"] = "a arte do mapa é a do próprio jogo"
 L["the map in combat, RareScanner's icons over the map and other map addons' pins"] = "o mapa em combate, os ícones do RareScanner sobre o mapa e os ícones de outros addons de mapa"
 L["the map's hitches while panning, found and measured with /openmap bench"] = "os travamentos do mapa ao arrastá-lo, encontrados e medidos com /openmap bench"
+L["the quest level on OpenMap's quest icons"] = "o nível da missão nos ícones de missão do OpenMap"
 L["the resizable settings menu, resizing the map with Move Any, and the Titan Panel launcher"] = "o menu de configurações redimensionável, redimensionar o mapa com o Move Any e o atalho para o Titan Panel"
 L["the switch for dungeon maps, and separate switches for friends and guild"] = "o interruptor dos mapas de masmorra e interruptores separados para amigos e guilda"
 L["the yellow ping hidden with your arrow"] = "o sinal amarelo oculto junto com sua seta"

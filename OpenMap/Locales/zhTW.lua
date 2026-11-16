@@ -534,6 +534,7 @@ L["the controller map option turned on in combat, and B by a quest's details"] =
 L["the map art is the game's own"] = "地圖美術皆來自遊戲本身"
 L["the map in combat, RareScanner's icons over the map and other map addons' pins"] = "戰鬥中的地圖、地圖上方的 RareScanner 圖示，以及其他地圖插件的圖示"
 L["the map's hitches while panning, found and measured with /openmap bench"] = "拖曳地圖時的卡頓，用 /openmap bench 找出並測量"
+L["the quest level on OpenMap's quest icons"] = "OpenMap 任務圖示上的任務等級"
 L["the resizable settings menu, resizing the map with Move Any, and the Titan Panel launcher"] = "可調整大小的設定選單、搭配Move Any調整地圖大小，以及Titan Panel啟動器"
 L["the switch for dungeon maps, and separate switches for friends and guild"] = "地城地圖開關，以及好友和公會各自的開關"
 L["the yellow ping hidden with your arrow"] = "黃色提示隨你的箭頭一起隱藏"

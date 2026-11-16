@@ -33,6 +33,7 @@ ns.Credits = {
 		{ "k4m1", L["the controller map option turned on in combat, and B by a quest's details"] },
 		{ "FlyingPenguin98", L["OpenMap's map with a controller (the Gamepad UI)"] },
 		{ "bv101rj", L["Questie 12.8's icons found on the map"] },
+		{ "Rambomst", L["the quest level on OpenMap's quest icons"] },
 	} },
 	{ L["Map art"], {
 		{ "Blizzard Entertainment", L["the map art is the game's own"] },

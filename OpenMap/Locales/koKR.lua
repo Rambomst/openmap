@@ -534,6 +534,7 @@ L["the controller map option turned on in combat, and B by a quest's details"] =
 L["the map art is the game's own"] = "지도 그림은 게임에 있는 그대로입니다"
 L["the map in combat, RareScanner's icons over the map and other map addons' pins"] = "전투 중 지도, 지도 위의 RareScanner 아이콘과 다른 지도 애드온의 아이콘"
 L["the map's hitches while panning, found and measured with /openmap bench"] = "지도를 이동할 때 끊기는 문제, /openmap bench 명령으로 찾아내고 측정"
+L["the quest level on OpenMap's quest icons"] = "OpenMap 퀘스트 아이콘의 퀘스트 레벨"
 L["the resizable settings menu, resizing the map with Move Any, and the Titan Panel launcher"] = "크기 조절이 가능한 설정 메뉴, Move Any로 지도 크기 조절, Titan Panel 실행기"
 L["the switch for dungeon maps, and separate switches for friends and guild"] = "던전 지도 스위치, 친구와 길드 각각의 스위치"
 L["the yellow ping hidden with your arrow"] = "내 화살표와 함께 숨겨지는 노란색 알림"

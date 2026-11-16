@@ -534,6 +534,7 @@ L["the controller map option turned on in combat, and B by a quest's details"] =
 L["the map art is the game's own"] = "графика карты взята из самой игры"
 L["the map in combat, RareScanner's icons over the map and other map addons' pins"] = "карта в бою, значки RareScanner поверх карты и значки других модификаций карты"
 L["the map's hitches while panning, found and measured with /openmap bench"] = "подтормаживания карты при прокрутке, найденные и измеренные с помощью /openmap bench"
+L["the quest level on OpenMap's quest icons"] = "уровень задания на значках заданий OpenMap"
 L["the resizable settings menu, resizing the map with Move Any, and the Titan Panel launcher"] = "меню настроек с изменяемым размером, изменение размера карты с Move Any и кнопка запуска для Titan Panel"
 L["the switch for dungeon maps, and separate switches for friends and guild"] = "переключатель карт подземелий и отдельные переключатели для друзей и гильдии"
 L["the yellow ping hidden with your arrow"] = "жёлтый сигнал скрывается вместе с вашей стрелкой"
