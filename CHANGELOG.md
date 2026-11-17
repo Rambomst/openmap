@@ -1,5 +1,14 @@
 # OpenMap changelog
 
+## Unreleased
+
+### Fixed
+
+- **ClassicUI Forever's question reads properly in every language**: the question about turning its
+  World map option off, and the note when it's kept, showed garbled characters in place of accented
+  letters, quotation marks and non-Latin script in French, Spanish, Italian, Portuguese, Russian,
+  Korean and Chinese. By Rambomst.
+
 ## v0.8.10 (2026-11-16)
 
 ### Fixed
